@@ -1,4 +1,4 @@
-const todo = require('../models/todo')
+const todo = require('../models/todo');
 
 const listarTodasAsTarefas = async (req,res) => {
     const tarefa = await todo.find({})
