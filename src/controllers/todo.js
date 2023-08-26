@@ -5,8 +5,10 @@ const listarTodasAsTarefas = async (req,res) => {
     res.status(200).json(encontrar)
 }
 
-const listarTarefaId = (req, res) => {
-    res.json('listar uma tarefa por id')
+const listarTarefaId = async (req, res) => {
+    const {id} = req.params
+    const encontrar = await todo.findById(id)
+    res.status(200).json(encontrar)
 }
 
 const atualizarTarefaId = (req, res) => {
