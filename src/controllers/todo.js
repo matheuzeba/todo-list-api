@@ -2,7 +2,6 @@ const listarTodasAsTarefas = (req,res) => {
     res.json('listar tudo')
 }
 
-
 const listarTarefaId = (req, res) => {
     res.json('listar uma tarefa por id')
 }
