@@ -11,8 +11,13 @@ const listarTarefaId = async (req, res) => {
     res.status(200).json(tarefa)
 }
 
-const atualizarTarefaId = (req, res) => {
-    res.json ('atualizar uma tarefa por id')
+const atualizarTarefaId = async (req, res) => {
+    const {id} = req.params
+    const tarefa = await todo.findByIdAndUpdate(id, req.body, {
+        new:true,
+        runValidators: true
+    })
+    res.status(200).json(tarefa)
 }
 
 const criarTarefa = async (req, res) => {
