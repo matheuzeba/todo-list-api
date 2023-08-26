@@ -1,7 +1,8 @@
 const todo = require('../models/todo')
 
-const listarTodasAsTarefas = (req,res) => {
-    res.json('listar tudo')
+const listarTodasAsTarefas = async (req,res) => {
+    const encontrar = await todo.find({})
+    res.status(200).json(encontrar)
 }
 
 const listarTarefaId = (req, res) => {
