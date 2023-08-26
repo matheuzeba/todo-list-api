@@ -20,8 +20,10 @@ const criarTarefa = async (req, res) => {
     res.status(200).json(tarefa)
 }
 
-const deletarTarefa = (req, res) => {
-    res.json ('deletar uma tarefa')
+const deletarTarefa = async (req, res) => {
+    const {id} = req.params
+    const tarefa = await todo.findByIdAndDelete(id)
+    res.status(200).json(tarefa)
 }
 
 module.exports = {
