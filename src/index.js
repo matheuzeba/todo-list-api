@@ -5,7 +5,7 @@ require('dotenv').config({path: process.cwd() + '/src/config/config.env'})
 const express = require('express');
 const database = require('./database/database')
 const routes = require('./routes/todo')
-
+const asyncWrapper = require('./middlewares/async')
 //  instancia do express
 const app = express();
 
