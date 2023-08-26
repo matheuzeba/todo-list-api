@@ -4,7 +4,8 @@ const todo = require('../controllers/todo');
 
 routes = express();
 
-//  rota generica para teste
-routes.route('/todo').get(todo.listarTodasAsTarefas);
+//  rotas
+routes.route('/todo').get(todo.listarTodasAsTarefas).post(todo.criarTarefa);
+routes.route('/todo/:id').get(todo.listarTarefaId).patch(todo.atualizarTarefaId).delete(todo.deletarTarefa);
 
 module.exports = routes;
