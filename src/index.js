@@ -1,6 +1,5 @@
 //  dotenv
-require('dotenv').config({path: process.cwd() + '/src/config/config.env'})
-
+require('dotenv').config({path: process.cwd() + '/src/.env'})
 //  importacoes
 const express = require('express');
 const database = require('./database/database')
