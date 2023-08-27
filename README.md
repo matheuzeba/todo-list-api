@@ -7,7 +7,7 @@
 ## 📖  Descrição
 
 Esse é um projeto de uma API Resta para criação de tarefas. Ela foi desenvolvida com o proposito de aprender o básico sobre CRUD, MongoDB e Mongoose.
-
+<br>
 ## 🛠️ Funcionalidades
 
 - Armazenar os dados da tarefa
@@ -16,9 +16,7 @@ Esse é um projeto de uma API Resta para criação de tarefas. Ela foi desenvolv
 - Listar todas as tarefas
 - Listar tarefa específica
 - Deletar tarefa
-
-
-
+<br>
 ## 📡 Tecnologias utilizadas 
 
 ![NodeJs](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -26,7 +24,7 @@ Esse é um projeto de uma API Resta para criação de tarefas. Ela foi desenvolv
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=MongoDB&logoColor=white)
 ![Mongoose](https://img.shields.io/badge/Mongoose-880000.svg?style=for-the-badge&logo=Mongoose&logoColor=white)
 ![.ENV](https://img.shields.io/badge/.ENV-ECD53F.svg?style=for-the-badge&logo=dotenv&logoColor=black)
-
+<br>
 ## ⏳ Inicialização
 
 Esse projeto foi desenvolvido em ambiente Linux, utilizando o Ubuntu 22.04 LTS e as tecnologias citadas anteriormente. Caso você utilize outro sistema operacional, a configuração inicial do projeto pode ser um pouco diferente, por isso sugiro que você acesse os links indicados abaixo:
@@ -47,6 +45,7 @@ Para instalar o Node.js, acesse: https://nodejs.org/pt-br/download/package-manag
 ## 🔎 Status do Projeto
 
 ![Badge em Desenvolvimento](https://img.shields.io/badge/Status-%20Concluido-green)
+<br>
 
 ## 📑 Sites que me ajudaram
 
@@ -64,6 +63,8 @@ https://stackoverflow.com/
 
 Duvidas no subreddit do nodejs:
 https://old.reddit.com/r/node/
+
+<br>
 
 ## 🌐 minhas redes
 
