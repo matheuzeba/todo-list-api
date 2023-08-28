@@ -17,6 +17,7 @@ Esse é um projeto de uma API Resta para criação de tarefas. Ela foi desenvolv
 - Listar tarefa específica
 - Deletar tarefa
 <br>
+
 ## 📡 Tecnologias utilizadas 
 
 ![NodeJs](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
@@ -25,6 +26,7 @@ Esse é um projeto de uma API Resta para criação de tarefas. Ela foi desenvolv
 ![Mongoose](https://img.shields.io/badge/Mongoose-880000.svg?style=for-the-badge&logo=Mongoose&logoColor=white)
 ![.ENV](https://img.shields.io/badge/.ENV-ECD53F.svg?style=for-the-badge&logo=dotenv&logoColor=black)
 <br>
+
 ## ⏳ Inicialização
 
 Esse projeto foi desenvolvido em ambiente Linux, utilizando o Ubuntu 22.04 LTS e as tecnologias citadas anteriormente. Caso você utilize outro sistema operacional, a configuração inicial do projeto pode ser um pouco diferente, por isso sugiro que você acesse os links indicados abaixo:
